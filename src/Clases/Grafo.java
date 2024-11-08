@@ -17,6 +17,10 @@ public class Grafo {
         this.AtributosArista = new HashMap<>();
     }
 
+    public static int getCounter() {
+        return counter;
+    }
+
     public HashMap<Character,Integer> getAtributosArista() {
         return AtributosArista;
     }
